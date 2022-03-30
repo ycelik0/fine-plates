@@ -1,0 +1,39 @@
+/* General */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+  background-color: rgb(244, 244, 244);
+}
+
+/* Navbar */
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  padding: .75rem;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+  margin: 1rem;
+}
+
+.list-item {
+  padding: .25rem;
+}
